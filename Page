@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Consultorio Dental - NEXUS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0b1a2a;
+      color: #fff;
+    }
+    header {
+      background: #1a2a3a;
+      padding: 40px;
+      text-align: center;
+    }
+    header h1 {
+      color: #e63946;
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      color: #fff;
+      font-size: 1.2em;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #e63946;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #457b9d;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    a.button:hover {
+      background: #1d3557;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Consultorio Dental NEXUS</h1>
+    <p>Experiencia, tradición y excelencia en cada sonrisa</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre Nosotros</h2>
+      <p>Somos un consultorio dental especializado en brindar atención personalizada y de calidad. Nuestro objetivo es que cada paciente se sienta cómodo y seguro.</p>
+    </section>
+
+    <section>
+      <h2>Servicios</h2>
+      <ul>
+        <li>Revisión y diagnóstico</li>
+        <li>Ortodoncia y brackets</li>
+        <li>Blanqueamiento dental</li>
+        <li>Tratamientos de estética y salud dental</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>Agenda tu cita hoy mismo:</p>
+      <a href="https://wa.me/5215555555555" class="button">Enviar WhatsApp</a>
+    </section>
+  </main>
+</body>
+</html>
